@@ -7,7 +7,7 @@
 
 .content {
     display: flex;
-    background-color: rgb(255, 236, 206);
+    background-color: rgb(65, 255, 68);
     flex-wrap: wrap;
     justify-content: center;
 }
