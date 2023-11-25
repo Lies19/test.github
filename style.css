@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    background-color: rgb(255, 149, 0);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    background-color: blanchedalmond;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    order: 2; 
+}
+
+.news:first-child {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+}
+
+#breaking {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    order: 0;
+    width: 40%
+}
